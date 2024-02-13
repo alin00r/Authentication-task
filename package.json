@@ -1,0 +1,22 @@
+{
+    "name": "blog-api",
+    "version": "1.0.0",
+    "description": "blog-Api-intern2Grow",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ali nour",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.4.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.1.1",
+        "nodemon": "^3.0.3",
+        "validator": "^13.11.0"
+    }
+}
